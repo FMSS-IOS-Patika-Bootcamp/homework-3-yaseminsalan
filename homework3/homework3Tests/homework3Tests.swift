@@ -1,9 +1,6 @@
 //
 //  homework3Tests.swift
 //  homework3Tests
-//
-//  Created by amarenasoftware on 19.09.2022.
-//
 
 import XCTest
 @testable import homework3

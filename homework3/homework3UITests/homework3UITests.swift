@@ -1,9 +1,6 @@
 //
 //  homework3UITests.swift
 //  homework3UITests
-//
-//  Created by amarenasoftware on 19.09.2022.
-//
 
 import XCTest
 
