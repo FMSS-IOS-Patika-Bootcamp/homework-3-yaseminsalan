@@ -80,17 +80,18 @@ extension CommentsImageViewController: UICollectionViewDelegateFlowLayout {
     func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAt indexPath: IndexPath) -> CGSize {
         let screenSize: CGRect = UIScreen.main.bounds
            let screenWidth = screenSize.width
-           return CGSize(width: (screenWidth/5)-1, height: (screenWidth/3)-4);
+        let screenHeight = screenSize.height
+           return CGSize(width: (screenWidth/4)-4, height:(screenWidth/4)-4);
     }
     
-  /* func collectionView(collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, insetForSectionAtIndex section: Int) -> UIEdgeInsets {
-        return UIEdgeInsets(top: 1, left: 1, bottom: 1, right: 1)
+   /*func collectionView(collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, insetForSectionAtIndex section: Int) -> UIEdgeInsets {
+        return UIEdgeInsets(top: 4, left: 4, bottom: 4, right: 4)
     }*/
-   func collectionView(collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, minimumLineSpacingForSectionAtIndex section: Int) -> CGFloat {
-        return 1.0
+  func collectionView(collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, minimumLineSpacingForSectionAtIndex section: Int) -> CGFloat {
+        return 4.0
     }
     func collectionView(collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, minimumInteritemSpacingForSectionAtIndex section: Int) -> CGFloat {
-        return 1.0
+        return 4.0
     }
 }
 
