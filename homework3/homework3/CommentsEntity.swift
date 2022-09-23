@@ -21,3 +21,4 @@ struct CommentImageCellViewModel:Decodable{
     var thumbnailUrl:String?
    
 }
+
